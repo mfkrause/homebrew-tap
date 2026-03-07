@@ -1,13 +1,13 @@
 cask "consul" do
-  version "1.2.0"
+  version "1.3.0"
 
   on_arm do
-    sha256 "8cad27c1c1b8d736802a6d9272fd584e8c666ecc1eea5e8a270c5aad4e54e725"
+    sha256 "3a4348af2a286fb95a95cbf7843aaf6a5610f0a793dd49ada66de8e7f606fd53"
     url "https://getconsul.app/releases/Consul-#{version}-arm64.dmg"
   end
 
   on_intel do
-    sha256 "f45fe8a23f58535801aff211c21562f4cf9d742bed5cfdf6ec554625f416e38d"
+    sha256 "177da1edf97fdcfe85d8db65fb1467a353275e09006bb9ede1f6b88f0988d28b"
     url "https://getconsul.app/releases/Consul-#{version}-x86_64.dmg"
   end
 
@@ -15,7 +15,7 @@ cask "consul" do
   desc "Automatically converts files when their extension is changed"
   homepage "https://getconsul.app"
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: ">= :sonoma"
 
   app "Consul.app"
 end
