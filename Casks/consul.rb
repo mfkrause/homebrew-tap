@@ -15,7 +15,7 @@ cask "consul" do
   desc "Automatically converts files when their extension is changed"
   homepage "https://getconsul.app"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Consul.app"
 end
