@@ -1,13 +1,13 @@
 cask "consul" do
-  version "1.9.0"
+  version "1.9.1"
 
   on_arm do
-    sha256 "03bd89df7375c3d8260f2a4ab16eec1dea94152a8b1daa299b017f1fc7cbec81"
+    sha256 "1a28046ecb32a72cc17ce67ac64e83eb1776890ec206092f4424662ad20e81f6"
     url "https://getconsul.app/releases/Consul-#{version}-arm64.dmg"
   end
 
   on_intel do
-    sha256 "ed23ddd252c244777dd1f267db16bf59803a4ca053225d7b31ff064d693c9257"
+    sha256 "b895d8ac5731b36a4b652822090d4c16bc22b8a6c7d1a64f23dc07e46e4815c0"
     url "https://getconsul.app/releases/Consul-#{version}-x86_64.dmg"
   end
 
